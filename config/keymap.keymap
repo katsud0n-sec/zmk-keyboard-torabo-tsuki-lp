@@ -16,9 +16,11 @@
 
         // タップとホールドで動作を切り替えるmod-morph
         mb1_and_scroll: mb1_and_scroll {
-            compatible = "zmk,behavior-mod-morph";
+            compatible = "zmk,behavior-tap-hold"
             #binding-cells = <0>;
+            tap-binding = <&mkp MB1>;
             bindings = <&mkp MB1>, <&to SCROLL_MOUSE>;
+            hold-binding = <&to SCROLL_MOUSE>;
             // ホールドするまでにかかる時間
             tapping-term-ms = <200>;
         };
