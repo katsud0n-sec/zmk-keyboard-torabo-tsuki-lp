@@ -18,16 +18,13 @@ manifest:
       remote: sekigon-gonnoc
       revision: main
     - name: zmk-driver-paw3222
-      remote: sekigon-gonnoc
+      remote: katsud0n-sec
       revision: main
     - name: zmk-feature-cdc-acm-bootloader-trigger
       remote: sekigon-gonnoc
       revision: main
     - name: zmk-feature-non-lipo-battery-management
       remote: sekigon-gonnoc
-      revision: main
-    - name: zmk-naginata
-      remote: katsud0n-sec
       revision: main
   self:
     path: config
