@@ -4,6 +4,6 @@ if(CONFIG_SHIELD_TORABO_TSUKI_LP_LEFT OR CONFIG_SHIELD_TORABO_TSUKI_LP_RIGHT)
   zephyr_library_sources(src/board.c)
 
   if(CONFIG_PAW3222)
-    target_link_libraries(${PROJECT_NAME} zmk_keymap)
+    target_link_libraries(zmk_keymap)
   endif()
 endif()
