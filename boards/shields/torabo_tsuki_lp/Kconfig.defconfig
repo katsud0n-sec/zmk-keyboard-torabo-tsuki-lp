@@ -21,10 +21,4 @@ config ZMK_POINTING
 config PAW3222
     default y
 
-config ZMK_KEYMAP
-    default y
-
-config ZMK_BEHAVIORS_LAYER
-    default y
-
 endif
