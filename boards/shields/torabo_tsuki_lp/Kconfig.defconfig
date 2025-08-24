@@ -18,7 +18,9 @@ config ZMK_MOUSE
 config ZMK_POINTING
     default y
 
+if ZMK_SPLIT_ROLE_CENTRAL
 config PAW3222
     default y
+endif
 
 endif
