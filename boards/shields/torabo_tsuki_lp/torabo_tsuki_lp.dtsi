@@ -161,6 +161,6 @@
         snipe-layers = <2>;
         snipe-divisor = <2>;
         slow-scroll-layers = <1>;
-        slow-scroll-tick = <40>;
+        slow-scroll-tick = <60>;
     };
 };
