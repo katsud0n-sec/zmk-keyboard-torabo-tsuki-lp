@@ -158,11 +158,10 @@
         irq-gpios = <&gpio0 19 GPIO_ACTIVE_LOW>;
         power-gpios = <&gpio0 8 (GPIO_ACTIVE_HIGH | NRF_GPIO_DRIVE_H1)>;
         res-cpi = <800>;
-        scroll-layers = <5>;
-        scroll-tick = <60>;
+        //scroll-layers = <5>;
         //snipe-layers = <2>;
         //snipe-divisor = <2>;
-        //slow-scroll-layers = <2>;
-        //slow-scroll-tick = <60>;
+        slow-scroll-layers = <5>;
+        slow-scroll-tick = <60>;
     };
 };
