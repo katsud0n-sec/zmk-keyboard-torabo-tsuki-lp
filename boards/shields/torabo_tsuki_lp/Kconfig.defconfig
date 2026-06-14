@@ -15,5 +15,10 @@ config INPUT
 
 config ZMK_MOUSE
     default y
+
+if ZMK_SPLIT_ROLE_CENTRAL
+config PAW3222
+    default y
+endif
  
 endif
